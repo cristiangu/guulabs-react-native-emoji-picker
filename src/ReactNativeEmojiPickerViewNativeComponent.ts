@@ -5,4 +5,6 @@ interface NativeProps extends ViewProps {
   color?: string;
 }
 
-export default codegenNativeComponent<NativeProps>('ReactNativeEmojiPickerView');
+export default codegenNativeComponent<NativeProps>(
+  'ReactNativeEmojiPickerView'
+);
